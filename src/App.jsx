@@ -508,7 +508,6 @@ function JournalView({ user, children, selectedChild, onSelectChild, entries, on
             ref={fileInput}
             type="file"
             accept="image/*"
-            capture="environment"
             style={{ display: 'none' }}
             onChange={handlePhotoSelect}
           />
